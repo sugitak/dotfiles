@@ -1,0 +1,22 @@
+[credential]
+	helper = osxkeychain
+[user]
+        #name =
+        #email =
+[alias]
+	st = status -sb
+	stt = status
+	d  = diff --word-diff
+	dc = diff --word-diff --cached
+	diffc = diff --cached
+	ci = commit
+	co = checkout
+	ls = ls-files
+        br = branch
+        l = log --no-merges --graph --format='%Cgreen%aI %Creset%h <%Cblue%ae%Creset>  %Cred%s'
+[pager]
+        log = diff-highlight | less
+        show = diff-highlight | less
+        diff = diff-highlight | less
+[diff]
+        compactionHeuristic = true

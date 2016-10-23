@@ -1,0 +1,10 @@
+export PATH="$HOME/bin:/usr/local/bin:$PATH"
+export HISTSIZE=100000
+export HISTFILESIZE=100000
+export EDITOR=vim
+
+# nokogiri
+export NOKOGIRI_USE_SYSTEM_LIBRARIES="YES"
+
+# alias
+source $HOME/.bash_aliases
