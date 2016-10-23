@@ -6,3 +6,6 @@ alias bake='bundle exec rake'
 function s() {
         say -v Kyoko $@ &
 }
+function tenki() {
+        curl http://wttr.in/Tokyo
+}
